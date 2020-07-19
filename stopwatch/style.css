@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "GrenzeGotisch-Regular";
+  src: url(Grenze_Gotisch\static\GrenzeGotisch-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, rgba( 250, 215, 160 ) , rgba(171, 235, 198 ));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border-radius: 40px;
+  margin-top: 35px;
+  border: 5px solid #153C3F ;
+}
+.heading {
+  font-family: "GrenzeGotisch-Regular" !important;
+  color: #153C3F ;
+  font-size: 2em;
+  text-align: center;
+}
+.stopwatch {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.stopwatch > h2 {
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  font-family: digital-7;
+  font-size: 4em;
+  color: #153C3F ;
+}
+.stopwatchBtns > button {
+  padding: 5px 23px;
+  margin: 10px 5px;
+  height: 50px;
+  background-color: #153C3F ;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: digital-7;
+  font-weight: bold;
+}
